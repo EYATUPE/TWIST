@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2.1"
+djangorestframework = "==3.14.0"
+django-allauth = "==0.52.0"
+dj-rest-auth = {version = "==4.0.0", extras = ["with_social"]}
+django-environ = "*"
+
+[requires]
+python_version = "3.9"
+
+[dev-packages]
